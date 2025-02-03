@@ -13,6 +13,6 @@ public class avg_cgpa {
             sum += cgpa[i];
         }
         double avg = sum / n;
-        System.out.println("Average CGPA is: " + avg);
+        System.out.println("Average Mark is: " + avg);
     }
 }

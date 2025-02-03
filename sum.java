@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 public class sum {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -16,6 +15,6 @@ public class sum {
             n =sum;
         }
         
-        System.out.println("Single digit of the reversed number is: " + n);
+        System.out.println("Sum of the digit of number is: " + n);
     }
 }

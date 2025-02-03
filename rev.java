@@ -5,11 +5,10 @@ public class rev {
         System.out.print("Enter the number: ");
         int n = sc.nextInt();
         int rev=0;
-            
         while(n != 0) {
             rev = rev * 10 + n % 10;
             n = n / 10;
         }
-        System.out.println("Single digit of the reversed number is: " + rev);
+        System.out.println("Reversed number is: " + rev);
     }
 }
